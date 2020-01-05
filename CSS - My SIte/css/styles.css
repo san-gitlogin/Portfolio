@@ -1,0 +1,284 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  text-align: center;
+  color: #88817A;
+}
+
+h1 {
+  font-family: 'Reenie Beanie', cursive;
+  color: #64d7d7;
+  font-weight: normal;
+  font-size:64px;
+}
+
+h2 {
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  color: #64d7d7;
+  font-weight: normal;
+  font-size: 32px;
+}
+
+h3 {
+  font-family: 'Reenie Beanie', cursive;
+  font-weight: normal;
+  font-size: 44px;
+  color: #64d7d7;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  padding-bottom: 10px;
+  font-weight: bold;
+  color: #88817A;
+}
+
+hr{
+  border: dotted #EAf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a{
+  color: #209191;
+  font-family: 'Quicksand', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #eaf6f6;
+}
+
+
+.btn {
+   background: #64D7D7;
+   background-image: -webkit-linear-gradient(top, #64D7D7, #15B2B8);
+   background-image: -moz-linear-gradient(top, #64D7D7, #15B2B8);
+   background-image: -ms-linear-gradient(top, #64D7D7, #15B2B8);
+   background-image: -o-linear-gradient(top, #64D7D7, #15B2B8);
+   background-image: linear-gradient(to bottom, #64D7D7, #15B2B8);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Quicksand' sans-serif;
+   font-size: 20px;
+   padding: 20px;
+   border: solid #4EA9A9 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+}
+
+.btn:hover {
+   border: solid #FFFFFF 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4ED);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4ED);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4ED);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4ED);
+   background-image: linear-gradient(to bottom, #30E3CB, #2BC4ED);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+.myself{
+  position: absolute;
+  bottom: -100px;
+  right:750px;
+  z-index:0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.designation{
+  top: 300px;
+  right: 700px;
+  position: absolute;
+  z-index:2;
+}
+
+.name{
+  position: absolute;
+  top:80px;
+  z-index:1;
+
+}
+.intro{
+  width: 30%;
+  margin:20px auto 50px auto;
+  line-height: 1.75;
+
+}
+.design {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  height: 400px;
+}
+
+
+
+.heart {
+  position: absolute;
+  bottom: 520px;
+  left: 420px;
+
+}
+
+.camera{
+  position: absolute;
+  bottom: 520px;
+  left: 120px;
+}
+
+.eyedrop{
+  position: absolute;
+  bottom:360px;
+  right:400px;
+}
+
+.gallery{
+  position:absolute;
+  left: 300px;
+  bottom:420px;
+}
+
+.idea{
+  position:absolute;
+  top: 200px;
+  right: 120px;
+
+}
+
+.paint{
+  position: absolute;
+  left:220px;
+  bottom:320px;
+}
+
+
+.pencil{
+  position:absolute;
+  right: 200px;
+  bottom:520px;
+}
+
+.computer{
+  position: absolute;
+  right: 380px;
+  bottom:480px;
+}
+
+.rgbwheel{
+  position: absolute;
+  bottom:320px;
+  right:180px;
+}
+
+
+
+.tools{
+  position: absolute;
+  right:290px;
+  bottom:380px;
+
+}
+.web-logo{
+  width: 20%;
+  float: right;
+  margin-left: 50px;
+
+}
+
+.art-logo{
+  width: 20%;
+  float: left;
+  margin-right: 50px;
+}
+
+.xd-logo{
+  width: 20%;
+  float: right;
+  margin-left: 50px;
+}
+
+.ps-logo{
+  width: 20%;
+  float: left;
+  margin-right: 50px;
+}
+
+
+.ae-logo{
+  width: 20%;
+  float: right;
+  margin-left: 50px;
+}
+
+.ai-logo{
+  width: 21%;
+  float: left;
+  margin-right: 50px;
+}
+
+
+.xd-description,.ps-description,.ae-description,.ai-description{
+  line-height: 1.75;
+}
+
+.name {
+  font-size: 90px;
+  text-align: center;
+  margin: 0;
+  position: relative;
+}
+
+.designation {
+  font-size: 32px;
+}
+
+
+.top-container {
+  background-color: #f8f8f8;
+  padding-top: 150px;
+  padding-bottom:550px;
+  margin-bottom: 20px;
+  z-index:auto;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto 120px auto;
+  text-align: left;
+}
+
+.web-description,.art-description{
+  line-height: 1.75;
+}
+.middle-container {
+  margin:100px auto;
+}
+
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.bottom-container {
+  background-color: #64d7d7;
+  padding: 50px 0 20px;
+}
+
+.copyright{
+  font-size: 12px;
+  padding: 20px 0;;
+  color:#eaf6f6
+}
