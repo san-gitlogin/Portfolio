@@ -72,7 +72,7 @@ a.btn {
    padding: 20px;
    border: solid #4EA9A9 1px;
    text-decoration: none;
-   display: inline-block;
+   display: block;
    cursor: pointer;
 }
 
