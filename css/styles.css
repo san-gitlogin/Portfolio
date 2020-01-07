@@ -55,7 +55,7 @@ a:hover{
   color: #eaf6f6;
 }
 
-
+/*
 .btn {
    background-color: #64D7D7;
    background-image: -webkit-linear-gradient(top, #64D7D7, #15B2B8);
@@ -89,7 +89,7 @@ a:hover{
    border-radius: 8px;
    text-decoration: none;
 }
-
+*/
 .myself{
   position: absolute;
   bottom: -100px;
